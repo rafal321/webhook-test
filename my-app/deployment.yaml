@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app-2048
-        image: therafk/rkapp11:1.0
+        image: therafk/rkapp12:1.0
         resources: {}
         ports:
         - containerPort: 80

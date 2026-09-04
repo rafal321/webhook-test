@@ -7,14 +7,20 @@ pipeline {
                 sleep 5
             }
         }
-        stage("test") {
-            steps {
-                echo "Running tests 1"
-                sleep 6
-            }
-            steps {
-                echo "Running tests"
-                sleep 4
+    stage("test") {
+            parallel {
+                stage("Test 1") {
+                    steps {
+                        echo "Running tests 1"
+                        sleep 6
+                    }
+                }
+                stage("Test 2") {
+                    steps {
+                        echo "Running tests 2"
+                        sleep 4
+                    }
+                }
             }
         }
 

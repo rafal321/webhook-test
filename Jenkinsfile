@@ -24,7 +24,7 @@ pipeline {
                 expression { BRANCH_NAME == "main" }
             }
             steps {
-                echo "Building the project triggered by token"
+                echo "Building the project triggered by token2"
                 sleep 5
             }
         }
@@ -33,7 +33,7 @@ pipeline {
                 expression { BRANCH_NAME == "main" }
             }
             steps {
-                echo "Deploying the project"
+                echo "Deploying the project triggered by token2"
                 sleep 7
             }
         }

@@ -7,7 +7,7 @@ pipeline {
                         steps {
                             echo "Running tests 1"
                             echo "Running tests on branch ${BRANCH_NAME}"
-                            echo "Building the project triggered by token1900"
+                            echo "Building the project triggered by token1308"
                             sleep 6
                         }
                     }
@@ -15,7 +15,7 @@ pipeline {
                         steps {
                             echo "Running tests 2"
                             echo "Running tests on branch ${BRANCH_NAME}"
-                            echo "Building the project triggered by token1900"
+                            echo "Building the project triggered by token1308"
                             sleep 4
                         }
                     }
@@ -26,7 +26,7 @@ pipeline {
                 expression { BRANCH_NAME == "main" }
             }
             steps {
-                echo "Building the project triggered by token1900"
+                echo "Building the project triggered by token1308"
                 sleep 5
             }
         }
@@ -35,7 +35,7 @@ pipeline {
                 expression { BRANCH_NAME == "main" }
             }
             steps {
-                echo "Deploying the project triggered by token1900"
+                echo "Deploying the project triggered by token1308"
                 sleep 7
             }
         }

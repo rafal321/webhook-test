@@ -1,5 +1,6 @@
+git add . ; git commit -m "NeuralNine $(date +%FT%T)" ; git push 
 Hello
 
+New Line
 
-
-git add . ; git commit -m "NeuralNine $(date +%FT%T)" ; git push 
+Yeat another line

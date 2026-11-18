@@ -1,4 +1,4 @@
-git add . ; git commit -m "NeuralNine $(date +%FT%T)" ; git push 
+git add . ; git commit -m "environments $(date +%FT%T)" ; git push 
 Hello
 
 New Line

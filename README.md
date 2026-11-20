@@ -5,6 +5,6 @@ Some change!
 
 Yeat another line
 
-another line more stuff
+Another line more stuff
 feature1
 https://www.youtube.com/watch?v=yatvk0IqX84  [36:50]

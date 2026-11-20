@@ -1,4 +1,4 @@
-for i in range(0, 100):
-  print('output' + str(i))
+for i in range(0, 200):
+  print('output', i**2)
 
-print("Loop completed.")
+print('Hello')
